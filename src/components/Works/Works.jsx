@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import html5 from "../../img/html5.png";
+import css3 from "../../img/css3.png";
+import Developer from "../../img/Developer.jpg";
+import Javscript from "../../img/Javscript.png";
+import rered from "../../img/rered.jpg";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -21,18 +21,19 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Skills I have as a
           </span>
-          <span>Brands & Clients</span>
+          <span>Frontend Developer</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            I am skilled, flexible and adaptive in learning skills..
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            I am skilled in languages like- <span className="lang">HTML5, CSS3, Javascript, ReactJs,
             <br />
-            y dummy text of printingLorem
+            Redux, Responsive Designing.</span>
             <br />
-            ispum is simpley dummy text of printing
+            My skills are my strength and I will be an Asset to the Company if
+            <br />
+            I am choosen to be contribute.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -54,20 +55,21 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={html5} alt="" className="html"/>
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={css3} alt="" className="css"/>
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Developer} alt="" className="front"/>
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Javscript} alt="" className="js"/>
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={rered} alt="" className="rered"/>
           </div>
+          
         </motion.div>
         {/* background Circles */}
         <div className="w-backCircle blueCircle"></div>

@@ -2,45 +2,47 @@ import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import Accio from "../../img/Acciojob.jpg";
+import Oasis from "../../img/Oasis Infobyte.jpg";
+import TCS from "../../img/TCS_Logo.jpg";
+import Durga from "../../img/DurgaSoft.jpg";
+
 
 const Testimonial = () => {
   const clients = [
     {
-      img: profilePic1,
+      img: Oasis,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Oasis Infobyte offers me a great opportunity of Web Development Internship Practical Work Experience And An Introduction To Creating And Improving Web-Based Systems. This Internship Will Involve Challenging Opportunities, Real World Projects. It’s A Fantastic Opportunity To Gain Hands-On Experience In The Web And/Or App Development Field. Verified Certificates are uploaded on Linkedin",
     },
     {
-      img: profilePic2,
+      img: Accio,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    },
+        "After joining AccioJob I am skilled and was able to learn a lot and upskill myself in coding and full-stack web development.The live classes, daily assignments and doubt sessions made sure that everything was crystal clear to everyone. The multiple mock interviews are a very good simulation for the actual interviews and the feedback after those interviews is very helpful. Verified Certificates are uploaded on Linkedin",
+    },   
     {
-      img: profilePic3,
+      img: Durga,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I am really grateful to Durga Sir who taught me Core java, Basics of UI Designs, which helpful for me to upskill myself. DURGA SOFTWARE SOLUTIONS an ISO 9001:2008 Certified Organization,adivsion of Durga organizations is the one and only place providing in-depth training on all latest Java/J2ee technologies and Java Certifications for the last decade.Verified Certificates are uploaded on Linkedin.",
     },
+
     {
-      img: profilePic4,
+      img: TCS,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I am grateful to TCS Company that they provide me this opportunity and I certified as TCS iON Career Edge - Young Professional from their Company. It is a free to access 15-day career preparedness course that has been designed with the intent to equip the youth of today with core employability skills to take on the future.. Verified Certificates are uploaded on Linkedin",
     },
+    
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
-      <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
+        <span className="intern">My Internship </span>
+        <span>And </span>
+        <span className="cert">Certifications...</span>
+      <div className="blur t-blur1" style={{ background: "var(--purple)" }}> </div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
       </div>

@@ -9,13 +9,12 @@ const Contact = () => {
   const [done, setDone] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "service_pmnusvz",
+        "template_jh38sl7",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "rTxsV-gL50vYwtwqj"
       )
       .then(
         (result) => {
@@ -35,7 +34,7 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
+          <span style={{ color: darkMode?'white': ''}}>Get in Touch</span>
           <span>Contact me</span>
           <div
             className="blur s-blur1"

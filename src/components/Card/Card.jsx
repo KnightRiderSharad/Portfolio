@@ -7,7 +7,9 @@ const Card = ({emoji, heading, detail, color}) => {
       <img src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
-      <button className="c-button">LEARN MORE</button>
+      <a href="https://www.edureka.co/blog/front-end-developer-skills">
+      <button className="c-button">KNOW MORE</button>
+      </a>
     </div>
   );
 };

@@ -36,9 +36,45 @@
 }
 
 /* right side */
+
+.html{         /*change in logos html, css*/
+  width:150px;
+  height:150px;
+  border-radius: 70px;
+}
+
+.css{         /*change in logos html, css*/
+  width:180px;
+  height:160px;
+  border-radius: 50px;
+}
+
+.js{         /*change in logos html, css*/
+  width:150px;
+  height:150px;
+  border-radius: 70px;
+}
+
+.rered{         /*change in logos html, css*/
+  width:200px;
+  height:120px;
+  border-radius: 250px;
+}
+
+.front{
+  width:180px;
+  height:180px;
+  border-radius: 80px;
+}
+
+.lang{
+  color:orange;
+  font-size:12px;
+}
 .w-right {
   position: relative;
 }
+
 
 .w-mainCircle {
   left: 9rem;

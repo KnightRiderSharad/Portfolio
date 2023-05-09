@@ -16,6 +16,7 @@
 .n-name {
   font-size: 1.3rem;
   font-weight: bold;
+  /* color:rgb(190, 12, 12);     change */
 }
 .n-right {
   flex: 1;
@@ -37,6 +38,7 @@
 .n-list > ul :hover {
   color: var(--orange);
   cursor: pointer;
+   /* color:rgb(190, 12, 12); change */
 }
 
 .n-button {
