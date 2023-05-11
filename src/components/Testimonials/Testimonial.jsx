@@ -15,17 +15,19 @@ const Testimonial = () => {
     {
       img: Oasis,
       review:
-        "Oasis Infobyte offers me a great opportunity of Web Development Internship Practical Work Experience And An Introduction To Creating And Improving Web-Based Systems. This Internship Will Involve Challenging Opportunities, Real World Projects. It’s A Fantastic Opportunity To Gain Hands-On Experience In The Web And/Or App Development Field. Verified Certificates are uploaded on Linkedin",
+        "Oasis Infobyte offers me a great opportunity of Web Development Internship Practical Work Experience. This Internship Will Involve Challenging Opportunities, Real World Projects. It’s A Fantastic Opportunity To Gain Hands-On Experience in The Web And/Or App Development Field. This Intership helps a lot in understanding to work in official Environment. Verified Certificates are uploaded on Linkedin",
     },
+
     {
       img: Accio,
       review:
         "After joining AccioJob I am skilled and was able to learn a lot and upskill myself in coding and full-stack web development.The live classes, daily assignments and doubt sessions made sure that everything was crystal clear to everyone. The multiple mock interviews are a very good simulation for the actual interviews and the feedback after those interviews is very helpful. Verified Certificates are uploaded on Linkedin",
     },   
+
     {
       img: Durga,
       review:
-        "I am really grateful to Durga Sir who taught me Core java, Basics of UI Designs, which helpful for me to upskill myself. DURGA SOFTWARE SOLUTIONS an ISO 9001:2008 Certified Organization,adivsion of Durga organizations is the one and only place providing in-depth training on all latest Java/J2ee technologies and Java Certifications for the last decade.Verified Certificates are uploaded on Linkedin.",
+        "I am really grateful to Durga Sir who taught me Core java, Basics of UI Designs, which helpful for me to upskill myself. DURGA SOFTWARE SOLUTIONS providing in-depth training on all latest Java/J2ee technologies and Java Certifications for the last decade. They also help in improving my coding knowledges in other technologies.Verified Certificates are uploaded on Linkedin.",
     },
 
     {
@@ -56,8 +58,8 @@ const Testimonial = () => {
           return (
             <SwiperSlide key={index}>
               <div className="testimonial">
-                <img src={client.img} alt="" />
-                <span>{client.review}</span>
+                <img src={client.img} alt="" className="image"/>
+                <span className="review">{client.review}</span>
               </div>
             </SwiperSlide>
           );
